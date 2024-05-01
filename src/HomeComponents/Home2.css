@@ -1,0 +1,15 @@
+.image-container {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .images {
+    display: flex;
+    transition: transform 0.3s ease;
+  }
+  
+  img {
+    width: 100px; /* Adjust image width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  

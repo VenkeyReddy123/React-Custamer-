@@ -1,0 +1,17 @@
+.dside {
+    width:250px; /* New width on hover */
+
+    transition-property: width, height, background-color; /* Specify transition properties */
+    transition-duration:1s; /* Duration of the transition */
+    transition-timing-function: linear; /* Timing function for the transition */
+    transition-delay:0s; /* Delay before the transition starts */
+}
+.ddside{
+    width:0px; /* New width on hover */
+   
+     transition-property: width, height, background-color; /* Specify transition properties */
+     transition-duration:1s; /* Duration of the transition */
+     transition-timing-function: linear; /* Timing function for the transition */
+     transition-delay:0s; /* Delay before the transition starts */
+}
+

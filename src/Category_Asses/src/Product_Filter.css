@@ -1,0 +1,36 @@
+@media (max-width:390px) {
+    .model{
+        width:160px;
+        height:500px;
+       
+        /* border:10px solid red; */
+        padding:'100px';
+    }
+  }
+
+
+@media (min-width: 391px) and (max-width: 552px) {
+    .model {
+        width: 180px;
+        height: 450px;
+    }  
+}
+
+@media (min-width:554px) and (max-width:954px) {
+    .model {
+        width:250px;
+        height: 450px;
+    }  
+}
+@media (min-width:956px) and (max-width:1199px) {
+    .model {
+        width:240px;
+        height: 450px;
+    }  
+}
+@media (min-width: 1200px) {
+    .model {
+        width:270px;
+        height: 450px;
+    } 
+  }

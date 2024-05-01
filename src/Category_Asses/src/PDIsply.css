@@ -1,0 +1,23 @@
+.head{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:600 !important;
+    font-size:20px !important;
+}
+.Cat:hover{
+     background:rgb(235, 0, 0);
+     border-radius:30px;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     color: wheat;
+}
+.PName:hover{
+    color:blue;
+    font-weight: bolder;
+}
+.limited-lines {
+    max-height: 6em; /* Adjust as needed */
+    overflow: hidden;
+    text-overflow:ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:5; /* Adjust the number of lines to display */
+    -webkit-box-orient:horizontal;
+}

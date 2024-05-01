@@ -1,0 +1,10 @@
+
+.Hover:hover{
+    cursor: pointer;
+    color:yellow !important;
+}
+.Hover{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-display:initial;
+
+}
